@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/adaptive_style.css">
+<body>
+    <div class="container">
+    <!-- burger start -->
+     <div class="burger-menu">
+        <div class="burger-menu__content">
+            <img class="burger-menu__btn_close" 
+            src="./images/cancel_btn.png" 
+            alt="">
+
+            <input type="text" class="burger-menu__input">
+        <ul class="burger-menu__list">
+            <li class="burger-menu__item">
+                <a href="#">Services</a>
+            </li>
+            <li class="burger-menu__item">
+                <a href="#">Our Poject</a>
+            </li>
+            <li class="burger-menu__item">
+                <a href="#">About Us</a>
+        </ul>
+        </div>
+     </div>
+    <!-- burger end -->
+        <!-- navbar start -->
+        <!-- БЭМ - Блок Элемент Модификатор - block__element_modificator -->
+        <div class="navbar">
+            <img src="./images/logo.png" alt="navbar logo">
+            <ul class="navbar__list">
+                <li class="list__item"><a href="#">Home</a></li>
+                <li class="list__item"><a href="#">Services</a></li>
+                <li class="list__item"><a href="#">Our Project</a></li>
+                <li class="list__item"><a href="#">About us</a></li>
+            </ul>
+            <input type="text" class="navbar__input">
+        </div>
+        <!-- navbar end -->
+        <!-- header start -->
+        <header>
+            <div class="header__block_left">
+                <h2 class="header__title_left">Build Your Awesome Platform</h2>
+                <p class="header__desc_left">Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services.</p>
+                <button class="header__btn">
+                    Our Services 
+                    <img 
+                    src="./btn-icon.png" 
+                    alt="arrow icon" 
+                    class="btn__icon">
+                </button>
+            </div>
+            <div class="header__block_right">
+                <img 
+                 src="./header_img.png" 
+                 alt="header image" 
+                 class="header__img"
+                >
+                <img 
+                 src="./images/vector1.png" 
+                 alt="error"  
+                 id="vector_1" 
+                 class="vector"
+                >
+                <img 
+                 src="./images/vector2.png" 
+                 alt="error"  
+                 id="vector_2" 
+                 class="vector"
+                >
+                <img 
+                 src="./images/vector3.png" 
+                 alt="error"  
+                 id="vector_3" 
+                 class="vector"
+                >
+                <img 
+                 src="./images/vector4.png" 
+                 alt="error"  
+                 id="vector_4" 
+                 class="vector"
+                >
+            </div>
+        </header>
+        <!-- header end -->
+
+<!-- services block start -->
+        <div class="services">
+            <h2 class="services__title_main">The Service We Provide For You</h2>
+            <ul class="services__list">
+                <li class="services__item">
+                    <img src="./images/icon1.png" alt="" class="services__icon">
+                    <h4 class="services__title">Development</h4>
+                    <p class="services__desc">Create a platform with the best and coolest quality from us.</p>
+                </li>
+                <li class="services__item">
+                    <img src="./images/icon2.png" alt="" class="services__icon">
+                    <h4 class="services__title">UI/UX Designer</h4>
+                    <p class="services__desc">We provide UI/UX Design services, and of course with the best quality</p>
+                </li>
+                <li class="services__item">
+                    <img src="./images/icon3.png" alt="" class="services__icon">
+                    <h4 class="services__title">Graphic Designer</h4>
+                    <p class="services__desc">We provide Graphic Design services, with the best designers</p>
+                </li>
+                <li class="services__item">
+                    <img src="./images/icon4.png" alt="" class="services__icon">
+                    <h4 class="services__title">Motion Graphic</h4>
+                    <p class="services__desc">Create a platform with the best and coolest quality from us.</p>
+                </li>
+                <li class="services__item">
+                    <img src="./images/icon5.png" alt="" class="services__icon">
+                    <h4 class="services__title">Photography</h4>
+                    <p class="services__desc">We provide Photography services, and of course with the best quality</p>
+                </li>
+                <li class="services__item">
+                    <img src="./images/icon6.png" alt="" class="services__icon">
+                    <h4 class="services__title">Videography</h4>
+                    <p class="services__desc">Create a platform with the best and coolest quality from us.</p>
+                </li>
+            </ul>
+        </div>
+        <!-- services block end -->
+        <!-- portfolio block star -->
+        <div class="portfolio">
+            <h4 class="portfolio__title">Over Awesome Portfolio</h4>
+            <ul class="portfolio__list">
+                <li class="portfolio__item">
+                    <img src="./images/portofolio1.png" alt="error">
+                </li>
+                <li class="portfolio__item">
+                    <img src="./images/portfolio2.png" alt="error">
+                </li>
+                <li class="portfolio__item">
+                    <img src="./images/portfolio3.png" alt="error">
+                </li>
+            </ul>
+            <img src="./images/portfolio_icon.png" alt="error" class="portfolio__icon">
+        </div>
+        <!-- portfolio block end -->
+
+        <!-- info block start -->
+           <div class="info-block">
+            <h4 class="info-block__title">Contact us for the service you want to use
+            </h4>
+            <button class="info-block__btn">Contact Us</button>
+           </div>
+        <!-- info block end -->
+
+        <!-- footer start -->
+        
+        <footer>
+            <img src="./images/logo.png" alt="error" class="footer__logo">
+            <ul class="footer__list">
+                <li class="footer__item">Support</li>
+                <li class="footer__item">Privacy Policy</li>
+                <li class="footer__item">Terms and Conditions</li>
+            </ul>
+            <p class="footer__info">© 2022 Enver, All Rights Reserved</p>
+        </footer>
+        <!-- footer end -->
+    </div>
+    
+    <script>
+      let openBtn = document.querySelector(".navbar__btn_burger")
+      let closeBtn = document.querySelector(".burger-menu__btn_close")
+      let burgerMenu = document.querySelector("burger-menu")
+
+      openBtn.addEventListener("click", () => {
+        burgerMenu.style.display = "block"
+      });
+
+
+      closeBtn.addEventListener("click", () => {
+        burgerMenu.style.display = "none"
+      });
+
+    </script>
+</body>
+</html>
